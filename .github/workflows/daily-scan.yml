@@ -1,0 +1,64 @@
+name: daily-scan
+
+on:
+  schedule:
+    # 10:00 Asia/Jerusalem ≈ 07:00 UTC (08:00 during DST). Runs daily at both
+    # to ensure exactly one fires within the local 10:00 window regardless of
+    # DST state. The pipeline is idempotent — duplicate jobs upsert cleanly.
+    - cron: '0 7 * * *'
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      DEFAULT_LOCATION: ${{ vars.DEFAULT_LOCATION || 'Israel' }}
+      DEFAULT_EMAIL: ${{ vars.DEFAULT_EMAIL || 'jackamichai@gmail.com' }}
+      RELEVANCE_THRESHOLD: ${{ vars.RELEVANCE_THRESHOLD || '75' }}
+      LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'anthropic' }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      DATABASE_URL: ${{ secrets.DATABASE_URL || 'sqlite+aiosqlite:///./data/jobs.db' }}
+      SCRAPER_HEADLESS: 'true'
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: backend/requirements.txt
+
+      - name: Install Python dependencies
+        working-directory: backend
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Playwright browsers
+        working-directory: backend
+        run: python -m playwright install --with-deps chromium
+
+      - name: Restore persisted SQLite (optional)
+        uses: actions/cache@v4
+        with:
+          path: backend/data
+          key: getjob-db-${{ github.run_id }}
+          restore-keys: getjob-db-
+
+      - name: Run pipeline
+        working-directory: backend
+        run: python -m app.scheduler --once
+
+      - name: Persist SQLite back to cache
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jobs-db-${{ github.run_id }}
+          path: backend/data/jobs.db
+          if-no-files-found: ignore
+          retention-days: 30
