@@ -1,7 +1,10 @@
-import { useCallback, useEffect, useState } from 'react';
-import { api } from './api';
+import { useCallback, useEffect, useMemo, useState } from 'react';
+import { api, isDemoMode } from './api';
 import type { AppSettings, Job, Portal, Stats } from './types';
-import { JobTable } from './components/JobTable';
+import { Filters } from './components/Filters';
+import { DemoBanner, Header, Hero } from './components/Header';
+import { Icon } from './components/Icon';
+import { JobList } from './components/JobList';
 import { SettingsPanel } from './components/SettingsPanel';
 import { StatsCards } from './components/StatsCards';
 
@@ -15,9 +18,12 @@ export default function App() {
   const [stats, setStats] = useState<Stats | null>(null);
   const [minScore, setMinScore] = useState(0);
   const [includeDismissed, setIncludeDismissed] = useState(false);
-  const [loading, setLoading] = useState(false);
+  const [search, setSearch] = useState('');
+  const [loading, setLoading] = useState(true);
   const [scanning, setScanning] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [demo, setDemo] = useState(false);
+  const [scanToast, setScanToast] = useState<string | null>(null);
 
   const refresh = useCallback(async () => {
     setLoading(true);
@@ -33,6 +39,7 @@ export default function App() {
       setPortals(p);
       setSettings(s);
       setStats(st);
+      setDemo(isDemoMode());
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to load');
     } finally {
@@ -44,11 +51,23 @@ export default function App() {
     refresh();
   }, [refresh]);
 
+  useEffect(() => {
+    if (scanToast) {
+      const t = setTimeout(() => setScanToast(null), 4_000);
+      return () => clearTimeout(t);
+    }
+  }, [scanToast]);
+
   async function triggerScan() {
     setScanning(true);
     setError(null);
     try {
-      await api.triggerScan();
+      const r = await api.triggerScan();
+      setScanToast(
+        r.status === 'demo'
+          ? `Demo scan: ${r.portals_scraped} portals · ${r.jobs_scored} scored`
+          : `Scan complete: ${r.jobs_scored} scored · ${r.digest_jobs_included} above threshold`,
+      );
       await refresh();
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Scan failed');
@@ -57,90 +76,72 @@ export default function App() {
     }
   }
 
+  const filteredJobs = useMemo(() => {
+    if (!search) return jobs;
+    const q = search.toLowerCase();
+    return jobs.filter(
+      (j) =>
+        j.title.toLowerCase().includes(q) ||
+        j.company.toLowerCase().includes(q) ||
+        j.location.toLowerCase().includes(q),
+    );
+  }, [jobs, search]);
+
   return (
-    <div className="min-h-screen bg-zinc-50 text-zinc-900">
-      <header className="border-b border-zinc-200 bg-white">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <div>
-            <h1 className="text-lg font-bold">GetJob</h1>
-            <p className="text-xs text-zinc-500">
-              Daily scan · {settings?.default_location ?? '—'} · threshold{' '}
-              {settings?.relevance_threshold ?? '—'}%
-            </p>
-          </div>
-          <div className="flex items-center gap-2">
-            <nav className="flex rounded-lg bg-zinc-100 p-1 text-sm">
-              {(['jobs', 'settings'] as Tab[]).map((t) => (
-                <button
-                  key={t}
-                  onClick={() => setTab(t)}
-                  className={`rounded-md px-3 py-1 capitalize transition-colors ${
-                    tab === t ? 'bg-white text-zinc-900 shadow-sm' : 'text-zinc-500 hover:text-zinc-900'
-                  }`}
-                >
-                  {t}
-                </button>
-              ))}
-            </nav>
-            <button
-              onClick={triggerScan}
-              disabled={scanning}
-              className="rounded-lg bg-zinc-900 px-4 py-1.5 text-sm font-medium text-white shadow-sm hover:bg-zinc-700 disabled:opacity-50"
-            >
-              {scanning ? 'Scanning…' : 'Run scan'}
-            </button>
-          </div>
-        </div>
-      </header>
+    <div className="min-h-screen bg-zinc-50">
+      <Header
+        tab={tab}
+        onTabChange={setTab}
+        settings={settings}
+        scanning={scanning}
+        onScan={triggerScan}
+      />
+      <DemoBanner show={demo} />
+      {tab === 'jobs' && (
+        <Hero
+          total={stats?.total_jobs ?? null}
+          high={stats?.high_match_jobs ?? null}
+        />
+      )}
 
-      <main className="mx-auto max-w-6xl px-6 py-6">
-        <StatsCards stats={stats} />
-
+      <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8">
         {error && (
-          <div className="mt-4 rounded-lg border border-rose-200 bg-rose-50 px-4 py-2 text-sm text-rose-700">
+          <div className="mb-4 flex items-center gap-2 rounded-2xl border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-700">
+            <Icon name="alert" size={14} />
             {error}
           </div>
         )}
 
         {tab === 'jobs' && (
-          <section className="mt-6 space-y-3">
-            <div className="flex flex-wrap items-center gap-3 text-sm">
-              <label className="flex items-center gap-2">
-                <span className="text-zinc-600">Min score</span>
-                <input
-                  type="range"
-                  min={0}
-                  max={100}
-                  step={5}
-                  value={minScore}
-                  onChange={(e) => setMinScore(Number(e.target.value))}
-                  className="w-32 accent-zinc-900"
-                />
-                <span className="w-10 text-right font-mono text-zinc-900">{minScore}%</span>
-              </label>
-              <label className="flex items-center gap-2">
-                <input
-                  type="checkbox"
-                  checked={includeDismissed}
-                  onChange={(e) => setIncludeDismissed(e.target.checked)}
-                  className="accent-zinc-900"
-                />
-                <span className="text-zinc-600">Include dismissed</span>
-              </label>
-              <span className="ml-auto text-xs text-zinc-500">
-                {loading ? 'Loading…' : `${jobs.length} job${jobs.length === 1 ? '' : 's'}`}
-              </span>
-            </div>
-            <JobTable jobs={jobs} onChange={refresh} />
-          </section>
+          <div className="grid gap-5">
+            <StatsCards stats={stats} />
+            <Filters
+              minScore={minScore}
+              onMinScoreChange={setMinScore}
+              includeDismissed={includeDismissed}
+              onIncludeDismissedChange={setIncludeDismissed}
+              search={search}
+              onSearchChange={setSearch}
+              count={filteredJobs.length}
+              loading={loading}
+            />
+            <JobList jobs={filteredJobs} onChange={refresh} loading={loading} />
+          </div>
         )}
 
         {tab === 'settings' && (
-          <section className="mt-6">
-            <SettingsPanel settings={settings} portals={portals} onChange={refresh} />
-          </section>
+          <SettingsPanel settings={settings} portals={portals} onChange={refresh} />
         )}
       </main>
+
+      {scanToast && (
+        <div className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2 animate-slide-up">
+          <div className="flex items-center gap-2 rounded-full bg-zinc-900 px-5 py-3 text-sm font-semibold text-white shadow-lg">
+            <Icon name="check" size={14} className="text-emerald-400" />
+            {scanToast}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
