@@ -23,8 +23,10 @@ from apscheduler.triggers.cron import CronTrigger
 from app.analyzer import run_analyzer
 from app.config import get_settings
 from app.database import apply_persisted_overrides, init_models
+from app.exporter import DATA_JSON, export_to_json
 from app.notifier import send_digest
 from app.scraper import run_scraper
+from app.sync import sync_portals_from_file
 
 logger = logging.getLogger(__name__)
 
@@ -36,6 +38,7 @@ class PipelineReport:
     jobs_scored: int
     digest_recipients_notified: int
     digest_jobs_included: int
+    exported_path: str = ""
 
 
 async def run_pipeline() -> PipelineReport:
@@ -47,6 +50,12 @@ async def run_pipeline() -> PipelineReport:
         "Starting pipeline · location=%s · threshold=%d · provider=%s",
         settings.default_location, settings.relevance_threshold, settings.llm_provider,
     )
+
+    # 0. Sync portals from config/portals.json (source of truth)
+    try:
+        await sync_portals_from_file()
+    except Exception:  # noqa: BLE001
+        logger.exception("Portal sync failed; continuing with existing DB state")
 
     # 1. Scrape
     try:
@@ -73,12 +82,23 @@ async def run_pipeline() -> PipelineReport:
     except Exception:  # noqa: BLE001
         logger.exception("Notification phase failed — digest will retry next run")
 
+    # 4. Export the dashboard snapshot
+    exported_path = ""
+    try:
+        await export_to_json()
+        from app.exporter import DATA_JSON
+
+        exported_path = str(DATA_JSON)
+    except Exception:  # noqa: BLE001
+        logger.exception("Export to JSON failed; dashboard will show last successful snapshot")
+
     report = PipelineReport(
         portals_scraped=portals,
         scrape_errors=scrape_errors,
         jobs_scored=scored,
         digest_recipients_notified=recipients_notified,
         digest_jobs_included=digest_count,
+        exported_path=exported_path,
     )
     logger.info("Pipeline complete: %s", asdict(report))
     return report
@@ -107,6 +127,7 @@ def _cli() -> int:
     parser.add_argument("--scrape-only", action="store_true")
     parser.add_argument("--analyze-only", action="store_true")
     parser.add_argument("--notify-only", action="store_true")
+    parser.add_argument("--export-only", action="store_true", help="Re-export current DB state to JSON")
     args = parser.parse_args()
 
     logging.basicConfig(
@@ -127,6 +148,10 @@ def _cli() -> int:
         if args.notify_only:
             n = await send_digest()
             print(f"Digest dispatched with {n} jobs")
+            return 0
+        if args.export_only:
+            payload = await export_to_json()
+            print(f"Exported {len(payload['jobs'])} jobs to {DATA_JSON}")
             return 0
         report = await run_pipeline()
         print(asdict(report))

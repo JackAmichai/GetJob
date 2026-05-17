@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "settings": {
+    "default_location": "Israel",
+    "default_email": "jackamichai@gmail.com",
+    "relevance_threshold": 75,
+    "scan_cron": "0 10 * * *",
+    "llm_provider": "anthropic"
+  },
+  "stats": {
+    "total_jobs": 0,
+    "scored_jobs": 0,
+    "high_match_jobs": 0,
+    "portals_active": 7,
+    "last_scan_at": null
+  },
+  "portals": [
+    { "id": 1, "name": "Anthropic Careers", "ats_type": "greenhouse", "board_url": "https://boards.greenhouse.io/anthropic", "company": "Anthropic", "is_active": true, "last_scanned_at": null, "last_error": null, "created_at": null },
+    { "id": 2, "name": "Wix Jobs",          "ats_type": "greenhouse", "board_url": "https://job-boards.greenhouse.io/wix", "company": "Wix", "is_active": true, "last_scanned_at": null, "last_error": null, "created_at": null },
+    { "id": 3, "name": "Lightricks",        "ats_type": "lever",      "board_url": "https://jobs.lever.co/lightricks", "company": "Lightricks", "is_active": true, "last_scanned_at": null, "last_error": null, "created_at": null },
+    { "id": 4, "name": "Monday.com",        "ats_type": "greenhouse", "board_url": "https://boards.greenhouse.io/mondaycom", "company": "Monday.com", "is_active": true, "last_scanned_at": null, "last_error": null, "created_at": null },
+    { "id": 5, "name": "Vercel",            "ats_type": "greenhouse", "board_url": "https://boards.greenhouse.io/vercel", "company": "Vercel", "is_active": true, "last_scanned_at": null, "last_error": null, "created_at": null },
+    { "id": 6, "name": "Riskified",         "ats_type": "greenhouse", "board_url": "https://boards.greenhouse.io/riskified", "company": "Riskified", "is_active": true, "last_scanned_at": null, "last_error": null, "created_at": null },
+    { "id": 7, "name": "Outbrain",          "ats_type": "greenhouse", "board_url": "https://boards.greenhouse.io/outbrain", "company": "Outbrain", "is_active": true, "last_scanned_at": null, "last_error": null, "created_at": null }
+  ],
+  "jobs": []
+}

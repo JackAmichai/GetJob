@@ -1,4 +1,5 @@
 import { Icon } from './Icon';
+import { links } from '../api';
 import type { AppSettings } from '../types';
 
 type Tab = 'jobs' | 'settings';
@@ -7,11 +8,11 @@ interface Props {
   tab: Tab;
   onTabChange: (t: Tab) => void;
   settings: AppSettings | null;
-  scanning: boolean;
-  onScan: () => void;
+  refreshing: boolean;
+  onRefresh: () => void;
 }
 
-export function Header({ tab, onTabChange, settings, scanning, onScan }: Props) {
+export function Header({ tab, onTabChange, settings, refreshing, onRefresh }: Props) {
   return (
     <header className="sticky top-0 z-30 border-b border-zinc-200/70 bg-white/85 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
@@ -45,19 +46,28 @@ export function Header({ tab, onTabChange, settings, scanning, onScan }: Props) 
             ))}
           </nav>
           <button
-            onClick={onScan}
-            disabled={scanning}
-            className="inline-flex items-center gap-2 rounded-full bg-brand-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:bg-brand-700 disabled:cursor-not-allowed disabled:opacity-60"
+            onClick={onRefresh}
+            disabled={refreshing}
+            title="Refresh dashboard data"
+            className="inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-white px-3 py-2 text-sm font-semibold text-zinc-700 shadow-sm transition-all hover:border-zinc-300 disabled:opacity-50"
           >
             <Icon
-              name={scanning ? 'refresh' : 'play'}
+              name="refresh"
               size={14}
-              className={scanning ? 'animate-spin' : ''}
+              className={refreshing ? 'animate-spin' : ''}
             />
-            <span className="hidden sm:inline">
-              {scanning ? 'Scanning…' : 'Run scan'}
-            </span>
+            <span className="hidden sm:inline">Refresh</span>
           </button>
+          <a
+            href={links.runWorkflow}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-brand-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:bg-brand-700"
+          >
+            <Icon name="play" size={14} />
+            <span className="hidden sm:inline">Run scan</span>
+            <Icon name="external" size={11} className="hidden sm:inline opacity-70" />
+          </a>
         </div>
       </div>
       <div className="mx-auto flex max-w-7xl gap-1 px-4 pb-2 sm:hidden">
@@ -132,27 +142,33 @@ export function Hero({ total, high }: HeroProps) {
 
 interface BannerProps {
   show: boolean;
+  generatedAt: string | null;
 }
 
-export function DemoBanner({ show }: BannerProps) {
+export function FirstRunBanner({ show, generatedAt }: BannerProps) {
   if (!show) return null;
   return (
     <div className="border-b border-amber-200 bg-amber-50">
       <div className="mx-auto flex max-w-7xl items-center gap-3 px-4 py-2 text-xs text-amber-900 sm:px-6">
         <Icon name="info" size={14} className="shrink-0" />
-        <span>
-          <strong className="font-semibold">Demo data.</strong> Backend not
-          reachable — showing realistic sample. Deploy the FastAPI backend
-          (see{' '}
-          <code className="rounded bg-amber-100 px-1 py-0.5 font-mono">
-            render.yaml
-          </code>
-          ) and set{' '}
-          <code className="rounded bg-amber-100 px-1 py-0.5 font-mono">
-            VITE_API_BASE
-          </code>{' '}
-          in Vercel to see live results.
+        <span className="flex-1">
+          <strong className="font-semibold">No scan results yet.</strong>{' '}
+          The daily cron runs at 10:00 Asia/Jerusalem. Trigger one now from{' '}
+          <a
+            href={links.runWorkflow}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold underline hover:text-amber-700"
+          >
+            GitHub Actions ↗
+          </a>
+          .
         </span>
+        {generatedAt && (
+          <span className="hidden text-amber-700 sm:inline">
+            Last build: {new Date(generatedAt).toLocaleString()}
+          </span>
+        )}
       </div>
     </div>
   );

@@ -2,12 +2,23 @@ name: daily-scan
 
 on:
   schedule:
-    # 10:00 Asia/Jerusalem ≈ 07:00 UTC (08:00 during DST). Runs daily at both
-    # to ensure exactly one fires within the local 10:00 window regardless of
-    # DST state. The pipeline is idempotent — duplicate jobs upsert cleanly.
+    # 10:00 Asia/Jerusalem ≈ 07:00 UTC standard / 08:00 DST.
+    # Both fire daily; the pipeline is idempotent.
     - cron: '0 7 * * *'
     - cron: '0 8 * * *'
   workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Why you are triggering a manual run'
+        required: false
+        default: 'manual'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-scan
+  cancel-in-progress: false
 
 jobs:
   scan:
@@ -19,13 +30,16 @@ jobs:
       RELEVANCE_THRESHOLD: ${{ vars.RELEVANCE_THRESHOLD || '75' }}
       LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'anthropic' }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL || 'claude-opus-4-7' }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-      DATABASE_URL: ${{ secrets.DATABASE_URL || 'sqlite+aiosqlite:///./data/jobs.db' }}
       SCRAPER_HEADLESS: 'true'
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 1
 
       - uses: actions/setup-python@v5
         with:
@@ -39,22 +53,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Install Playwright browsers
+      - name: Install Playwright Chromium
         working-directory: backend
         run: python -m playwright install --with-deps chromium
 
-      - name: Restore persisted SQLite (optional)
+      - name: Restore SQLite state from previous run
         uses: actions/cache@v4
         with:
           path: backend/data
           key: getjob-db-${{ github.run_id }}
-          restore-keys: getjob-db-
+          restore-keys: |
+            getjob-db-
 
       - name: Run pipeline
         working-directory: backend
         run: python -m app.scheduler --once
 
-      - name: Persist SQLite back to cache
+      - name: Persist SQLite for next run
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -62,3 +77,16 @@ jobs:
           path: backend/data/jobs.db
           if-no-files-found: ignore
           retention-days: 30
+
+      - name: Commit refreshed dashboard data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add frontend/public/data.json
+          if git diff --staged --quiet; then
+            echo "No dashboard changes to commit"
+          else
+            ts="$(date -u +'%Y-%m-%dT%H:%MZ')"
+            git commit -m "chore: refresh dashboard data ($ts)"
+            git push
+          fi

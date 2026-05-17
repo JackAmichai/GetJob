@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Anthropic Careers",
+    "ats_type": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/anthropic",
+    "company": "Anthropic",
+    "is_active": true
+  },
+  {
+    "name": "Wix Jobs",
+    "ats_type": "greenhouse",
+    "board_url": "https://job-boards.greenhouse.io/wix",
+    "company": "Wix",
+    "is_active": true
+  },
+  {
+    "name": "Lightricks",
+    "ats_type": "lever",
+    "board_url": "https://jobs.lever.co/lightricks",
+    "company": "Lightricks",
+    "is_active": true
+  },
+  {
+    "name": "Monday.com",
+    "ats_type": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/mondaycom",
+    "company": "Monday.com",
+    "is_active": true
+  },
+  {
+    "name": "Vercel",
+    "ats_type": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/vercel",
+    "company": "Vercel",
+    "is_active": true
+  },
+  {
+    "name": "Riskified",
+    "ats_type": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/riskified",
+    "company": "Riskified",
+    "is_active": true
+  },
+  {
+    "name": "Outbrain",
+    "ats_type": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/outbrain",
+    "company": "Outbrain",
+    "is_active": true
+  }
+]
