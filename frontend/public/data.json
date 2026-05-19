@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-19T10:32:48.543006+00:00",
+  "generated_at": "2026-05-19T11:16:40.660501+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 530,
-    "scored_jobs": 530,
+    "total_jobs": 531,
+    "scored_jobs": 531,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-05-19T10:32:48.426483+00:00"
+    "last_scan_at": "2026-05-19T11:16:40.565885+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-05-19T10:32:13.778411+00:00",
+      "last_scanned_at": "2026-05-19T11:16:05.934200+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-05-19T10:32:29.496768+00:00",
+      "last_scanned_at": "2026-05-19T11:16:29.732906+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-05-19T10:32:32.397446+00:00",
+      "last_scanned_at": "2026-05-19T11:16:24.563268+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-05-19T10:32:48.426483+00:00",
+      "last_scanned_at": "2026-05-19T11:16:40.565885+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-05-19T10:32:29.830587+00:00",
+      "last_scanned_at": "2026-05-19T11:16:21.965488+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-05-19T10:32:29.883201+00:00",
+      "last_scanned_at": "2026-05-19T11:16:21.696173+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,12 +89,30 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-05-19T10:32:29.436234+00:00",
+      "last_scanned_at": "2026-05-19T11:16:21.371642+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
+    {
+      "id": 531,
+      "company": "Anthropic",
+      "title": "Product Manager, Developer Productivity",
+      "location": "San Francisco, CA | New York City, NY",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5220143008",
+      "scraped_at": "2026-05-19T11:16:05+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-05-19T11:16:40.611189+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
     {
       "id": 530,
       "company": "Anthropic",
@@ -9073,24 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-05-18T10:58:16.130121+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 31,
-      "company": "Anthropic",
-      "title": "Applied AI Architect, National Security",
-      "location": "Washington, DC",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5079511008",
-      "scraped_at": "2026-05-18T10:57:39+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-18T10:58:16.125594+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
