@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-19T11:16:40.660501+00:00",
+  "generated_at": "2026-05-20T10:19:16.588326+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 531,
-    "scored_jobs": 531,
+    "total_jobs": 533,
+    "scored_jobs": 533,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-05-19T11:16:40.565885+00:00"
+    "last_scan_at": "2026-05-20T10:19:16.491880+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-05-19T11:16:05.934200+00:00",
+      "last_scanned_at": "2026-05-20T10:18:41.310875+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-05-19T11:16:29.732906+00:00",
+      "last_scanned_at": "2026-05-20T10:18:57.845960+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-05-19T11:16:24.563268+00:00",
+      "last_scanned_at": "2026-05-20T10:18:59.913128+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-05-19T11:16:40.565885+00:00",
+      "last_scanned_at": "2026-05-20T10:19:16.491880+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-05-19T11:16:21.965488+00:00",
+      "last_scanned_at": "2026-05-20T10:18:58.100459+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-05-19T11:16:21.696173+00:00",
+      "last_scanned_at": "2026-05-20T10:18:57.882945+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,12 +89,48 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-05-19T11:16:21.371642+00:00",
+      "last_scanned_at": "2026-05-20T10:18:57.578797+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
+    {
+      "id": 533,
+      "company": "Anthropic",
+      "title": "Head of Partner Programs",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5224507008",
+      "scraped_at": "2026-05-20T10:18:41+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-05-20T10:19:16.543286+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
+    {
+      "id": 532,
+      "company": "Anthropic",
+      "title": "Head of Accounting AI & Innovation",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183021008",
+      "scraped_at": "2026-05-20T10:18:41+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-05-20T10:19:16.535446+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
     {
       "id": 531,
       "company": "Anthropic",
@@ -3626,7 +3662,7 @@
     {
       "id": 335,
       "company": "Anthropic",
-      "title": "Software Engineer, UI Platform",
+      "title": "Staff Software Engineer, Accessibility",
       "location": "San Francisco, CA | New York City, NY | Seattle, WA",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/4673416008",
       "scraped_at": "2026-05-18T10:57:39+00:00",
@@ -5408,7 +5444,7 @@
     {
       "id": 236,
       "company": "Anthropic",
-      "title": "[P] [Zurich] Solutions Architect, Applied AI",
+      "title": "Solutions Architect, Applied AI",
       "location": "Zürich, CH",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5204086008",
       "scraped_at": "2026-05-18T10:57:39+00:00",
@@ -5768,7 +5804,7 @@
     {
       "id": 216,
       "company": "Anthropic",
-      "title": "[Pipeline] Software Engineer, Safeguards Labs",
+      "title": "Software Engineer, Safeguards Labs",
       "location": "New York City, NY",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5219486008",
       "scraped_at": "2026-05-18T10:57:39+00:00",
@@ -9055,42 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-05-18T10:58:16.139590+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 33,
-      "company": "Anthropic",
-      "title": "Applied AI Architect, Public Sector",
-      "location": "London, UK",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5194007008",
-      "scraped_at": "2026-05-18T10:57:39+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-18T10:58:16.134786+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 32,
-      "company": "Anthropic",
-      "title": "Applied AI Architect, Partnerships",
-      "location": "Paris, France",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5112486008",
-      "scraped_at": "2026-05-18T10:57:39+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-18T10:58:16.130121+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
