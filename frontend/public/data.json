@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-31T10:14:12.471119+00:00",
+  "generated_at": "2026-06-01T12:29:55.094700+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 599,
-    "scored_jobs": 599,
+    "total_jobs": 602,
+    "scored_jobs": 602,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-05-31T10:14:12.383697+00:00"
+    "last_scan_at": "2026-06-01T12:29:54.991918+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-05-31T10:13:37.344921+00:00",
+      "last_scanned_at": "2026-06-01T12:29:20.186105+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-05-31T10:13:53.991554+00:00",
+      "last_scanned_at": "2026-06-01T12:29:36.385730+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-05-31T10:13:55.804609+00:00",
+      "last_scanned_at": "2026-06-01T12:29:38.790241+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-05-31T10:14:12.383697+00:00",
+      "last_scanned_at": "2026-06-01T12:29:54.991918+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-05-31T10:13:54.155166+00:00",
+      "last_scanned_at": "2026-06-01T12:29:36.552797+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-05-31T10:13:53.871304+00:00",
+      "last_scanned_at": "2026-06-01T12:29:36.229964+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,12 +89,66 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-05-31T10:13:53.627505+00:00",
+      "last_scanned_at": "2026-06-01T12:29:35.907258+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
+    {
+      "id": 602,
+      "company": "Anthropic",
+      "title": "Manager, Account Executive - Enterprise Sales",
+      "location": "New York City, NY; San Francisco, CA | New York City, NY",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5175782008",
+      "scraped_at": "2026-06-01T12:29:20+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-06-01T12:29:55.045958+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
+    {
+      "id": 601,
+      "company": "Anthropic",
+      "title": "Industry Principal, Insurance",
+      "location": "San Francisco, CA | New York City, NY",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5133070008",
+      "scraped_at": "2026-06-01T12:29:20+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-06-01T12:29:55.040645+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
+    {
+      "id": 600,
+      "company": "Anthropic",
+      "title": "Channel Account Manager, SI & Reseller",
+      "location": "Tokyo, Japan",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5237030008",
+      "scraped_at": "2026-06-01T12:29:20+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-06-01T12:29:55.031884+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
     {
       "id": 599,
       "company": "Anthropic",
@@ -9037,60 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-05-18T10:58:16.459277+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 102,
-      "company": "Anthropic",
-      "title": "Engineering Manager, GRC",
-      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4980335008",
-      "scraped_at": "2026-05-18T10:57:39+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-18T10:58:16.455124+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 101,
-      "company": "Anthropic",
-      "title": "Engineering Manager, GPU (ML Accelerator)",
-      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4741104008",
-      "scraped_at": "2026-05-18T10:57:39+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-18T10:58:16.451051+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 100,
-      "company": "Anthropic",
-      "title": "Engineering Manager, Detection and Response",
-      "location": "Zürich, CH",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5068296008",
-      "scraped_at": "2026-05-18T10:57:39+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-18T10:58:16.447047+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
