@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-21T11:14:42.268538+00:00",
+  "generated_at": "2026-06-22T12:43:20.369736+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 737,
-    "scored_jobs": 737,
+    "total_jobs": 739,
+    "scored_jobs": 739,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-06-21T11:14:42.187156+00:00"
+    "last_scan_at": "2026-06-22T12:43:20.270121+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-06-21T11:14:07.505656+00:00",
+      "last_scanned_at": "2026-06-22T12:42:45.138784+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-06-21T11:14:23.758123+00:00",
+      "last_scanned_at": "2026-06-22T12:43:01.380630+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-06-21T11:14:25.970269+00:00",
+      "last_scanned_at": "2026-06-22T12:43:03.761164+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-06-21T11:14:42.187156+00:00",
+      "last_scanned_at": "2026-06-22T12:43:20.270121+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-06-21T11:14:23.779241+00:00",
+      "last_scanned_at": "2026-06-22T12:43:01.723078+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-06-21T11:14:23.531893+00:00",
+      "last_scanned_at": "2026-06-22T12:43:01.791122+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,16 +89,52 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-06-21T11:14:23.229141+00:00",
+      "last_scanned_at": "2026-06-22T12:43:01.369519+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
     {
+      "id": 739,
+      "company": "Anthropic",
+      "title": "Research Engineer, RL Scaling Science",
+      "location": "London, UK",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5264619008",
+      "scraped_at": "2026-06-22T12:42:45+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-06-22T12:43:20.322333+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
+    {
+      "id": 738,
+      "company": "Anthropic",
+      "title": "People Partner, Tokyo",
+      "location": "Tokyo, Japan",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5272637008",
+      "scraped_at": "2026-06-22T12:42:45+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-06-22T12:43:20.313997+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
+    {
       "id": 737,
       "company": "Vercel",
-      "title": "Software Engineer, Eve",
+      "title": "Software Engineer, eve",
       "location": "Hybrid - San Francisco, New York City",
       "url": "https://job-boards.greenhouse.io/vercel/jobs/6098390004",
       "scraped_at": "2026-06-21T10:25:12+00:00",
@@ -9055,42 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-05-18T10:58:17.083885+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 239,
-      "company": "Anthropic",
-      "title": "Research Engineer, AI Observability",
-      "location": "San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5125083008",
-      "scraped_at": "2026-05-18T10:57:39+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-18T10:58:17.079439+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 238,
-      "company": "Anthropic",
-      "title": "Research Economist, Economic Research",
-      "location": "San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5018472008",
-      "scraped_at": "2026-05-18T10:57:39+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-18T10:58:17.074451+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
