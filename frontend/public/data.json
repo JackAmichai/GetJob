@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-29T12:29:52.309161+00:00",
+  "generated_at": "2026-06-30T10:24:45.365167+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 780,
-    "scored_jobs": 780,
+    "total_jobs": 783,
+    "scored_jobs": 783,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-06-29T12:29:52.230309+00:00"
+    "last_scan_at": "2026-06-30T10:24:45.260030+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-06-29T12:29:17.556697+00:00",
+      "last_scanned_at": "2026-06-30T10:24:10.297891+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-06-29T12:29:33.786150+00:00",
+      "last_scanned_at": "2026-06-30T10:24:26.835512+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-06-29T12:29:36.017277+00:00",
+      "last_scanned_at": "2026-06-30T10:24:28.995539+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-06-29T12:29:52.230309+00:00",
+      "last_scanned_at": "2026-06-30T10:24:45.260030+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-06-29T12:29:33.789512+00:00",
+      "last_scanned_at": "2026-06-30T10:24:26.993736+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-06-29T12:29:33.559619+00:00",
+      "last_scanned_at": "2026-06-30T10:24:26.744032+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,12 +89,66 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-06-29T12:29:33.286866+00:00",
+      "last_scanned_at": "2026-06-30T10:24:26.496834+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
+    {
+      "id": 783,
+      "company": "Anthropic",
+      "title": "Startup Partnerships - India",
+      "location": "Bangalore, India",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5166398008",
+      "scraped_at": "2026-06-30T10:24:10+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-06-30T10:24:45.316159+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
+    {
+      "id": 782,
+      "company": "Anthropic",
+      "title": "Staff + Senior Software Engineer, Inference Deployment",
+      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5285557008",
+      "scraped_at": "2026-06-30T10:24:10+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-06-30T10:24:45.311541+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
+    {
+      "id": 781,
+      "company": "Anthropic",
+      "title": "Senior People Program Manager, Strategic Projects",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5283011008",
+      "scraped_at": "2026-06-30T10:24:10+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-06-30T10:24:45.303400+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
     {
       "id": 780,
       "company": "Vercel",
@@ -4598,7 +4652,7 @@
     {
       "id": 530,
       "company": "Anthropic",
-      "title": "Manager of Solutions Architecture, Applied AI (Enterprise Tech)",
+      "title": "Manager of Applied AI Architecture, Enterprise Tech",
       "location": "San Francisco, CA | New York City, NY",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5222289008",
       "scraped_at": "2026-05-19T10:32:13+00:00",
@@ -9037,60 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-05-18T10:58:17.281558+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 283,
-      "company": "Anthropic",
-      "title": "Safeguards Analyst, Human Exploitation & Abuse",
-      "location": "Remote-Friendly, United States",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5156333008",
-      "scraped_at": "2026-05-18T10:57:39+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-18T10:58:17.277221+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 282,
-      "company": "Anthropic",
-      "title": "Safeguards Analyst, Account Abuse",
-      "location": "San Francisco, CA | New York City, NY",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5108841008",
-      "scraped_at": "2026-05-18T10:57:39+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-18T10:58:17.272873+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 281,
-      "company": "Anthropic",
-      "title": "Revenue Strategy & Operations Lead, Japan",
-      "location": "Tokyo, Japan",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5016171008",
-      "scraped_at": "2026-05-18T10:57:39+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-18T10:58:17.268672+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
