@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-03T09:50:01.129683+00:00",
+  "generated_at": "2026-07-03T10:33:41.026700+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 809,
-    "scored_jobs": 809,
+    "total_jobs": 810,
+    "scored_jobs": 810,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-07-03T09:50:01.000997+00:00"
+    "last_scan_at": "2026-07-03T10:33:40.923025+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-07-03T09:49:26.360874+00:00",
+      "last_scanned_at": "2026-07-03T10:33:06.066129+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-07-03T09:49:42.591148+00:00",
+      "last_scanned_at": "2026-07-03T10:33:22.459024+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-07-03T09:49:44.836268+00:00",
+      "last_scanned_at": "2026-07-03T10:33:24.475564+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-07-03T09:50:01.000997+00:00",
+      "last_scanned_at": "2026-07-03T10:33:40.923025+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-07-03T09:49:42.520803+00:00",
+      "last_scanned_at": "2026-07-03T10:33:22.717058+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-07-03T09:49:42.297140+00:00",
+      "last_scanned_at": "2026-07-03T10:33:22.502100+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,12 +89,30 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-07-03T09:49:42.019274+00:00",
+      "last_scanned_at": "2026-07-03T10:33:22.223347+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
+    {
+      "id": 810,
+      "company": "Anthropic",
+      "title": "Enterprise Account Executive - Life Sciences",
+      "location": "London, UK",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5287249008",
+      "scraped_at": "2026-07-03T10:33:06+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-07-03T10:33:40.971449+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
     {
       "id": 809,
       "company": "Vercel",
@@ -9073,24 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-05-18T10:58:17.398386+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 310,
-      "company": "Anthropic",
-      "title": "Senior Marketing Events Manager, Partners",
-      "location": "San Francisco, CA | New York City, NY",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5100626008",
-      "scraped_at": "2026-05-18T10:57:39+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-18T10:58:17.393983+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
