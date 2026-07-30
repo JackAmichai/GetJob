@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-30T09:25:18.562371+00:00",
+  "generated_at": "2026-07-30T10:23:00.141542+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -13,7 +13,7 @@
     "scored_jobs": 959,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-07-30T09:25:18.269224+00:00"
+    "last_scan_at": "2026-07-30T10:23:00.065302+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-07-30T09:24:43.318440+00:00",
+      "last_scanned_at": "2026-07-30T10:22:25.055247+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-07-30T09:24:59.517597+00:00",
+      "last_scanned_at": "2026-07-30T10:22:41.506450+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-07-30T09:25:03.677085+00:00",
+      "last_scanned_at": "2026-07-30T10:22:43.627617+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-07-30T09:25:18.269224+00:00",
+      "last_scanned_at": "2026-07-30T10:23:00.065302+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-07-30T09:24:59.738541+00:00",
+      "last_scanned_at": "2026-07-30T10:22:41.735641+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-07-30T09:25:00.003453+00:00",
+      "last_scanned_at": "2026-07-30T10:22:41.556471+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,7 +89,7 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-07-30T09:24:59.494130+00:00",
+      "last_scanned_at": "2026-07-30T10:22:41.242514+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
