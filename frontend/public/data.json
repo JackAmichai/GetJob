@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-02T09:54:16.384262+00:00",
+  "generated_at": "2026-08-03T10:32:45.743969+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 964,
-    "scored_jobs": 964,
+    "total_jobs": 965,
+    "scored_jobs": 965,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-08-02T09:54:16.310772+00:00"
+    "last_scan_at": "2026-08-03T10:32:45.638409+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-08-02T09:53:41.301758+00:00",
+      "last_scanned_at": "2026-08-03T10:32:11.031132+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-08-02T09:53:57.646901+00:00",
+      "last_scanned_at": "2026-08-03T10:32:27.298363+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-08-02T09:53:59.822907+00:00",
+      "last_scanned_at": "2026-08-03T10:32:29.475295+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-08-02T09:54:16.310772+00:00",
+      "last_scanned_at": "2026-08-03T10:32:45.638409+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-08-02T09:53:57.911171+00:00",
+      "last_scanned_at": "2026-08-03T10:32:27.207047+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-08-02T09:53:57.873325+00:00",
+      "last_scanned_at": "2026-08-03T10:32:27.016224+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,12 +89,30 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-08-02T09:53:57.546195+00:00",
+      "last_scanned_at": "2026-08-03T10:32:26.746523+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
+    {
+      "id": 965,
+      "company": "Riskified",
+      "title": "Learning & OD Partner",
+      "location": "Tel Aviv",
+      "url": "https://www.riskified.com/careers/job-description/?gh_jid=8658885002",
+      "scraped_at": "2026-08-03T10:32:27+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-08-03T10:32:45.684631+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
     {
       "id": 964,
       "company": "Riskified",
@@ -9073,24 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-05-18T10:58:18.106738+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 465,
-      "company": "Vercel",
-      "title": "Software Engineer, AI SDK",
-      "location": "Hybrid - San Francisco, New York City",
-      "url": "https://job-boards.greenhouse.io/vercel/jobs/5474915004",
-      "scraped_at": "2026-05-18T10:57:56+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-18T10:58:18.102371+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
