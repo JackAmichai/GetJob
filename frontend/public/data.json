@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-06T10:36:17.728429+00:00",
+  "generated_at": "2026-08-07T08:06:41.683676+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 985,
-    "scored_jobs": 985,
+    "total_jobs": 987,
+    "scored_jobs": 987,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-08-06T10:36:17.416951+00:00"
+    "last_scan_at": "2026-08-07T08:06:41.579118+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-08-06T10:35:42.699560+00:00",
+      "last_scanned_at": "2026-08-07T08:06:06.933709+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-08-06T10:35:59.298928+00:00",
+      "last_scanned_at": "2026-08-07T08:06:23.674018+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-08-06T10:36:01.302461+00:00",
+      "last_scanned_at": "2026-08-07T08:06:25.342692+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-08-06T10:36:17.416951+00:00",
+      "last_scanned_at": "2026-08-07T08:06:41.579118+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-08-06T10:35:58.924714+00:00",
+      "last_scanned_at": "2026-08-07T08:06:23.220540+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-08-06T10:35:58.717332+00:00",
+      "last_scanned_at": "2026-08-07T08:06:23.034517+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,12 +89,48 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-08-06T10:35:58.443548+00:00",
+      "last_scanned_at": "2026-08-07T08:06:22.752396+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
+    {
+      "id": 987,
+      "company": "Vercel",
+      "title": "Account Executive, Commercial",
+      "location": "Hybrid - London",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6136160004",
+      "scraped_at": "2026-08-07T08:06:23+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-08-07T08:06:41.631631+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
+    {
+      "id": 986,
+      "company": "Anthropic",
+      "title": "Technical Program Manager, Silicon",
+      "location": "San Francisco, CA | New York City, NY",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5380377008",
+      "scraped_at": "2026-08-07T08:06:06+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-08-07T08:06:41.623564+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
     {
       "id": 985,
       "company": "Vercel",
@@ -260,7 +296,7 @@
     {
       "id": 976,
       "company": "Anthropic",
-      "title": "Researcher, Cybersecurity Products",
+      "title": "Staff+ Researcher, Cybersecurity Products",
       "location": "San Francisco, CA",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5380359008",
       "scraped_at": "2026-08-05T09:30:02+00:00",
@@ -3284,7 +3320,7 @@
     {
       "id": 808,
       "company": "Anthropic",
-      "title": "Staff+ Software Engineer, Vertical AI Products (Multiple Roles)",
+      "title": "Staff+ Software Engineer, Enterprise Knowledge Work",
       "location": "San Francisco, CA | New York City, NY",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5289450008",
       "scraped_at": "2026-07-03T09:49:26+00:00",
@@ -9055,42 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-05-18T10:58:18.207628+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 487,
-      "company": "Riskified",
-      "title": "Applied AI Engineer",
-      "location": "Tel Aviv",
-      "url": "https://www.riskified.com/careers/job-description/?gh_jid=8539588002",
-      "scraped_at": "2026-05-18T10:57:56+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-18T10:58:18.202553+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 486,
-      "company": "Vercel",
-      "title": "Vercel Development Representative, Startups",
-      "location": "Hybrid - San Francisco",
-      "url": "https://job-boards.greenhouse.io/vercel/jobs/5815357004",
-      "scraped_at": "2026-05-18T10:57:56+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-18T10:58:18.197986+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
