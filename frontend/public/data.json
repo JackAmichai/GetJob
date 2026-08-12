@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-12T08:09:38.456124+00:00",
+  "generated_at": "2026-08-12T09:09:36.547206+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 1027,
-    "scored_jobs": 1027,
+    "total_jobs": 1030,
+    "scored_jobs": 1030,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-08-12T08:09:38.284602+00:00"
+    "last_scan_at": "2026-08-12T09:09:36.217905+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-08-12T08:08:49.717031+00:00",
+      "last_scanned_at": "2026-08-12T09:09:01.140419+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-08-12T08:09:06.398197+00:00",
+      "last_scanned_at": "2026-08-12T09:09:17.540654+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-08-12T08:09:08.394580+00:00",
+      "last_scanned_at": "2026-08-12T09:09:19.873801+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-08-12T08:09:38.284602+00:00",
+      "last_scanned_at": "2026-08-12T09:09:36.217905+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-08-12T08:09:06.364953+00:00",
+      "last_scanned_at": "2026-08-12T09:09:17.749055+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-08-12T08:09:06.151416+00:00",
+      "last_scanned_at": "2026-08-12T09:09:17.722526+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,12 +89,66 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-08-12T08:09:05.762521+00:00",
+      "last_scanned_at": "2026-08-12T09:09:17.281222+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
+    {
+      "id": 1030,
+      "company": "Riskified",
+      "title": "Finance Operations",
+      "location": "Lisbon",
+      "url": "https://www.riskified.com/careers/job-description/?gh_jid=8675561002",
+      "scraped_at": "2026-08-12T09:09:17+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-08-12T09:09:36.512337+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
+    {
+      "id": 1029,
+      "company": "Anthropic",
+      "title": "Staff Software Engineer, Infrastructure (Distributed Systems)",
+      "location": "London, UK",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5387083008",
+      "scraped_at": "2026-08-12T09:09:01+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-08-12T09:09:36.485934+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
+    {
+      "id": 1028,
+      "company": "Anthropic",
+      "title": "Customer Success Manager, DACH",
+      "location": "Munich, Germany",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5382792008",
+      "scraped_at": "2026-08-12T09:09:00+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-08-12T09:09:36.372955+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
     {
       "id": 1027,
       "company": "Vercel",
@@ -9037,60 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-05-19T11:16:40.611189+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 530,
-      "company": "Anthropic",
-      "title": "Manager of Applied AI Architecture, Enterprise Tech",
-      "location": "San Francisco, CA | New York City, NY",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5222289008",
-      "scraped_at": "2026-05-19T10:32:13+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-19T10:32:48.498630+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 529,
-      "company": "Anthropic",
-      "title": "Head of Enterprise Sales - Industries, ANZ",
-      "location": "Sydney, Australia",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5221932008",
-      "scraped_at": "2026-05-19T10:32:13+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-19T10:32:48.494327+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 528,
-      "company": "Anthropic",
-      "title": "GTM Compensation Partner",
-      "location": "New York City, NY; San Francisco, CA | New York City, NY",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5176442008",
-      "scraped_at": "2026-05-19T10:32:13+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-05-19T10:32:48.490116+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
