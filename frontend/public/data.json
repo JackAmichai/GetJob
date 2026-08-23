@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-22T08:25:48.323508+00:00",
+  "generated_at": "2026-08-23T07:25:23.597008+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -13,7 +13,7 @@
     "scored_jobs": 1185,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-08-22T08:25:48.230105+00:00"
+    "last_scan_at": "2026-08-23T07:25:23.503322+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-08-22T08:25:13.184305+00:00",
+      "last_scanned_at": "2026-08-23T07:24:49.201644+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-08-22T08:25:29.509008+00:00",
+      "last_scanned_at": "2026-08-23T07:25:05.540728+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-08-22T08:25:31.561820+00:00",
+      "last_scanned_at": "2026-08-23T07:25:07.561777+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-08-22T08:25:48.230105+00:00",
+      "last_scanned_at": "2026-08-23T07:25:23.503322+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-08-22T08:25:29.781551+00:00",
+      "last_scanned_at": "2026-08-23T07:25:05.144019+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-08-22T08:25:29.603853+00:00",
+      "last_scanned_at": "2026-08-23T07:25:04.939652+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,7 +89,7 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-08-22T08:25:29.247489+00:00",
+      "last_scanned_at": "2026-08-23T07:25:04.648620+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
@@ -1269,7 +1269,7 @@
       "id": 1120,
       "company": "Anthropic",
       "title": "Applied AI Architect",
-      "location": "Bangalore, India",
+      "location": "Mumbai, India",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390746008",
       "scraped_at": "2026-08-20T07:32:29+00:00",
       "posted_at": null,
