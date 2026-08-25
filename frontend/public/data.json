@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T07:35:55.855988+00:00",
+  "generated_at": "2026-08-25T08:38:50.621952+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 1209,
-    "scored_jobs": 1209,
+    "total_jobs": 1211,
+    "scored_jobs": 1211,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-08-25T07:35:55.666113+00:00"
+    "last_scan_at": "2026-08-25T08:38:50.514526+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-08-25T07:35:21.276734+00:00",
+      "last_scanned_at": "2026-08-25T08:38:16.262955+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-08-25T07:35:37.428841+00:00",
+      "last_scanned_at": "2026-08-25T08:38:31.683648+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-08-25T07:35:39.764244+00:00",
+      "last_scanned_at": "2026-08-25T08:38:34.773363+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-08-25T07:35:55.666113+00:00",
+      "last_scanned_at": "2026-08-25T08:38:50.514526+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-08-25T07:35:37.185917+00:00",
+      "last_scanned_at": "2026-08-25T08:38:32.039004+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-08-25T07:35:36.979340+00:00",
+      "last_scanned_at": "2026-08-25T08:38:32.171948+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,12 +89,48 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-08-25T07:35:36.710417+00:00",
+      "last_scanned_at": "2026-08-25T08:38:31.690637+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
+    {
+      "id": 1211,
+      "company": "Anthropic",
+      "title": "Sales Director, Enterprise",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391344008",
+      "scraped_at": "2026-08-25T08:38:16+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-08-25T08:38:50.567045+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
+    {
+      "id": 1210,
+      "company": "Anthropic",
+      "title": "Enterprise Account Executive - Retail/CPG",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391336008",
+      "scraped_at": "2026-08-25T08:38:16+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-08-25T08:38:50.556984+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
     {
       "id": 1209,
       "company": "Anthropic",
@@ -9055,42 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-06-16T12:03:37.211092+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 711,
-      "company": "Anthropic",
-      "title": "People Research Scientist, Recruiting",
-      "location": "New York City, NY | Seattle, WA; San Francisco, CA | New York City, NY",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5257763008",
-      "scraped_at": "2026-06-16T12:03:02+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-06-16T12:03:37.206822+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 710,
-      "company": "Anthropic",
-      "title": "People Research Scientist, People",
-      "location": "New York City, NY | Seattle, WA; San Francisco, CA | New York City, NY",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5257820008",
-      "scraped_at": "2026-06-16T12:03:02+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-06-16T12:03:37.202017+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
