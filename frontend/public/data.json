@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-28T19:09:08.472180+00:00",
+  "generated_at": "2026-08-28T19:53:18.621276+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 1271,
-    "scored_jobs": 1271,
+    "total_jobs": 1272,
+    "scored_jobs": 1272,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-08-28T19:09:08.302426+00:00"
+    "last_scan_at": "2026-08-28T19:53:18.539767+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-08-28T19:08:34.088282+00:00",
+      "last_scanned_at": "2026-08-28T19:52:44.442095+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-08-28T19:08:50.301582+00:00",
+      "last_scanned_at": "2026-08-28T19:53:00.526547+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-08-28T19:08:52.610609+00:00",
+      "last_scanned_at": "2026-08-28T19:53:02.861001+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-08-28T19:09:08.302426+00:00",
+      "last_scanned_at": "2026-08-28T19:53:18.539767+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-08-28T19:08:49.828988+00:00",
+      "last_scanned_at": "2026-08-28T19:53:00.095527+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-08-28T19:08:49.621407+00:00",
+      "last_scanned_at": "2026-08-28T19:52:59.911420+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,12 +89,30 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-08-28T19:08:49.304564+00:00",
+      "last_scanned_at": "2026-08-28T19:52:59.650933+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
+    {
+      "id": 1272,
+      "company": "Anthropic",
+      "title": "Corporate Finance & Strategy, Cash Flow Forecasting",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358130008",
+      "scraped_at": "2026-08-28T19:52:44+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-08-28T19:53:18.575292+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
     {
       "id": 1271,
       "company": "Vercel",
@@ -9073,24 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-06-27T09:23:11.477615+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 772,
-      "company": "Vercel",
-      "title": "Security Engineer, Cloud",
-      "location": "Remote - United States",
-      "url": "https://job-boards.greenhouse.io/vercel/jobs/6102335004",
-      "scraped_at": "2026-06-26T10:13:38+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-06-26T10:13:56.646024+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
