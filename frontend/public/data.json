@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-13T13:06:12.244521+00:00",
+  "generated_at": "2026-09-14T13:29:29.308227+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 1395,
-    "scored_jobs": 1395,
+    "total_jobs": 1397,
+    "scored_jobs": 1397,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-09-13T13:06:12.149183+00:00"
+    "last_scan_at": "2026-09-14T13:29:29.118378+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-09-13T13:05:37.288218+00:00",
+      "last_scanned_at": "2026-09-14T13:28:54.358071+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-09-13T13:05:53.433879+00:00",
+      "last_scanned_at": "2026-09-14T13:29:10.520417+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-09-13T13:05:55.828392+00:00",
+      "last_scanned_at": "2026-09-14T13:29:27.187796+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-09-13T13:06:12.149183+00:00",
+      "last_scanned_at": "2026-09-14T13:29:29.118378+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-09-13T13:05:53.763542+00:00",
+      "last_scanned_at": "2026-09-14T13:29:13.005632+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-09-13T13:05:53.651518+00:00",
+      "last_scanned_at": "2026-09-14T13:29:10.266597+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,12 +89,48 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-09-13T13:05:53.282592+00:00",
+      "last_scanned_at": "2026-09-14T13:29:10.032391+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
+    {
+      "id": 1397,
+      "company": "Riskified",
+      "title": "Product Lead",
+      "location": "Tel Aviv",
+      "url": "https://www.riskified.com/careers/job-description/?gh_jid=8785421002",
+      "scraped_at": "2026-09-14T13:29:13+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-09-14T13:29:29.206634+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
+    {
+      "id": 1396,
+      "company": "Anthropic",
+      "title": "Forward Deployed Engineer",
+      "location": "London, UK",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5423029008",
+      "scraped_at": "2026-09-14T13:28:54+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-09-14T13:29:29.189391+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
     {
       "id": 1395,
       "company": "Anthropic",
@@ -9055,42 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-07-16T09:08:36.975445+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 897,
-      "company": "Vercel",
-      "title": "Visual Designer, Web",
-      "location": "Remote - United States",
-      "url": "https://job-boards.greenhouse.io/vercel/jobs/6115991004",
-      "scraped_at": "2026-07-16T09:08:18+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-07-16T09:08:36.970251+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 896,
-      "company": "Anthropic",
-      "title": "Staff+ Software Engineer, Data Infrastructure",
-      "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5114768008",
-      "scraped_at": "2026-07-16T09:08:02+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-07-16T09:08:36.965404+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
