@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T12:21:36.489414+00:00",
+  "generated_at": "2026-09-15T13:08:29.194942+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 1403,
-    "scored_jobs": 1403,
+    "total_jobs": 1404,
+    "scored_jobs": 1404,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-09-15T12:21:36.375390+00:00"
+    "last_scan_at": "2026-09-15T13:08:28.986708+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-09-15T12:21:02.298163+00:00",
+      "last_scanned_at": "2026-09-15T13:07:13.842204+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-09-15T12:21:18.583234+00:00",
+      "last_scanned_at": "2026-09-15T13:07:30.081667+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-09-15T12:21:20.877316+00:00",
+      "last_scanned_at": "2026-09-15T13:07:32.569003+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-09-15T12:21:36.375390+00:00",
+      "last_scanned_at": "2026-09-15T13:08:28.986708+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-09-15T12:21:17.892136+00:00",
+      "last_scanned_at": "2026-09-15T13:07:30.287456+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-09-15T12:21:17.685889+00:00",
+      "last_scanned_at": "2026-09-15T13:07:29.952175+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,12 +89,30 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-09-15T12:21:17.381861+00:00",
+      "last_scanned_at": "2026-09-15T13:07:29.355930+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
+    {
+      "id": 1404,
+      "company": "Riskified",
+      "title": "Software Engineer",
+      "location": "Tel Aviv",
+      "url": "https://www.riskified.com/careers/job-description/?gh_jid=8785367002",
+      "scraped_at": "2026-09-15T13:07:30+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-09-15T13:08:29.113252+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
     {
       "id": 1403,
       "company": "Vercel",
@@ -9073,24 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-07-18T08:42:53.903412+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 904,
-      "company": "Riskified",
-      "title": "Data Analyst",
-      "location": "Lisbon",
-      "url": "https://www.riskified.com/careers/job-description/?gh_jid=8626051002",
-      "scraped_at": "2026-07-17T09:03:22+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-07-17T09:03:41.416024+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
