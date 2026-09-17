@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-17T12:19:28.319049+00:00",
+  "generated_at": "2026-09-17T13:02:05.247245+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -13,7 +13,7 @@
     "scored_jobs": 1426,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-09-17T12:19:28.146838+00:00"
+    "last_scan_at": "2026-09-17T13:02:05.160089+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-09-17T12:18:54.021163+00:00",
+      "last_scanned_at": "2026-09-17T13:01:30.033260+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-09-17T12:19:10.087666+00:00",
+      "last_scanned_at": "2026-09-17T13:01:46.326680+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-09-17T12:19:12.437298+00:00",
+      "last_scanned_at": "2026-09-17T13:01:51.139476+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-09-17T12:19:28.146838+00:00",
+      "last_scanned_at": "2026-09-17T13:02:05.160089+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-09-17T12:19:09.641108+00:00",
+      "last_scanned_at": "2026-09-17T13:01:46.811548+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-09-17T12:19:09.435329+00:00",
+      "last_scanned_at": "2026-09-17T13:01:46.621253+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,7 +89,7 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-09-17T12:19:09.151669+00:00",
+      "last_scanned_at": "2026-09-17T13:01:50.520832+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
@@ -7802,7 +7802,7 @@
     {
       "id": 998,
       "company": "Vercel",
-      "title": "People Operations Integrations Developer",
+      "title": "Workday Integrations Developer",
       "location": "Hybrid - San Francisco, New York City, Austin",
       "url": "https://job-boards.greenhouse.io/vercel/jobs/6137983004",
       "scraped_at": "2026-08-08T07:40:07+00:00",
