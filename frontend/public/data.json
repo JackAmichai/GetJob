@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-20T12:23:45.174943+00:00",
+  "generated_at": "2026-10-20T13:19:19.008048+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 1748,
-    "scored_jobs": 1748,
+    "total_jobs": 1749,
+    "scored_jobs": 1749,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-10-20T12:23:45.015532+00:00"
+    "last_scan_at": "2026-10-20T13:19:18.904067+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-10-20T12:23:12.071844+00:00",
+      "last_scanned_at": "2026-10-20T13:18:44.796904+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-10-20T12:23:28.119973+00:00",
+      "last_scanned_at": "2026-10-20T13:19:01.958938+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-10-20T12:23:30.580596+00:00",
+      "last_scanned_at": "2026-10-20T13:19:03.471319+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-10-20T12:23:45.015532+00:00",
+      "last_scanned_at": "2026-10-20T13:19:18.904067+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-10-20T12:23:26.549132+00:00",
+      "last_scanned_at": "2026-10-20T13:19:00.230773+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-10-20T12:23:26.333463+00:00",
+      "last_scanned_at": "2026-10-20T13:18:59.975810+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,12 +89,30 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-10-20T12:23:26.038405+00:00",
+      "last_scanned_at": "2026-10-20T13:18:59.639324+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
+    {
+      "id": 1749,
+      "company": "Anthropic",
+      "title": "Manager, Cybersecurity Sales Specialist",
+      "location": "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456812008",
+      "scraped_at": "2026-10-20T13:18:44+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-10-20T13:19:18.949874+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
     {
       "id": 1748,
       "company": "Riskified",
@@ -9073,24 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-08-27T17:58:56.542198+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 1249,
-      "company": "Anthropic",
-      "title": "Director of Payroll, APAC",
-      "location": "Singapore",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5357955008",
-      "scraped_at": "2026-08-27T17:58:21+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-08-27T17:58:56.538417+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
