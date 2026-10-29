@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-29T13:50:04.956357+00:00",
+  "generated_at": "2026-10-29T14:56:18.625114+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 1828,
-    "scored_jobs": 1828,
+    "total_jobs": 1829,
+    "scored_jobs": 1829,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-10-29T13:50:04.862939+00:00"
+    "last_scan_at": "2026-10-29T14:56:18.541376+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-10-29T13:49:29.873206+00:00",
+      "last_scanned_at": "2026-10-29T14:55:44.676393+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-10-29T13:49:46.041778+00:00",
+      "last_scanned_at": "2026-10-29T14:56:00.773285+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-10-29T13:49:48.509097+00:00",
+      "last_scanned_at": "2026-10-29T14:56:03.261089+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-10-29T13:50:04.862939+00:00",
+      "last_scanned_at": "2026-10-29T14:56:18.541376+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-10-29T13:49:46.303211+00:00",
+      "last_scanned_at": "2026-10-29T14:56:00.001895+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-10-29T13:49:46.342995+00:00",
+      "last_scanned_at": "2026-10-29T14:55:59.826758+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,12 +89,30 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-10-29T13:49:46.019234+00:00",
+      "last_scanned_at": "2026-10-29T14:55:59.348076+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
+    {
+      "id": 1829,
+      "company": "Anthropic",
+      "title": "Enterprise Account Executive, Public Sector",
+      "location": "Milan, Italy",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5458689008",
+      "scraped_at": "2026-10-29T14:55:44+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-10-29T14:56:18.583719+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
     {
       "id": 1828,
       "company": "Anthropic",
@@ -9073,24 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-09-05T11:02:15.538338+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 1329,
-      "company": "Anthropic",
-      "title": "Applied AI, Research Engineer",
-      "location": "San Francisco, CA | New York City, NY",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390811008",
-      "scraped_at": "2026-09-05T11:01:21+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-09-05T11:02:15.530711+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
