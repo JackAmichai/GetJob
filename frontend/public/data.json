@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-02T16:41:09.713291+00:00",
+  "generated_at": "2026-11-02T17:52:10.079181+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 1857,
-    "scored_jobs": 1857,
+    "total_jobs": 1860,
+    "scored_jobs": 1860,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-11-02T16:41:09.578475+00:00"
+    "last_scan_at": "2026-11-02T17:52:09.972408+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-11-02T16:40:16.020067+00:00",
+      "last_scanned_at": "2026-11-02T17:51:36.383179+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-11-02T16:40:32.398182+00:00",
+      "last_scanned_at": "2026-11-02T17:52:09.081365+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-11-02T16:40:34.544277+00:00",
+      "last_scanned_at": "2026-11-02T17:51:55.079167+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-11-02T16:41:09.578475+00:00",
+      "last_scanned_at": "2026-11-02T17:52:09.972408+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-11-02T16:40:31.033656+00:00",
+      "last_scanned_at": "2026-11-02T17:51:51.255811+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-11-02T16:40:30.820760+00:00",
+      "last_scanned_at": "2026-11-02T17:51:50.986623+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,12 +89,66 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-11-02T16:40:30.563958+00:00",
+      "last_scanned_at": "2026-11-02T17:51:50.649811+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
+    {
+      "id": 1860,
+      "company": "Vercel",
+      "title": "Software Engineer, Compute",
+      "location": "Hybrid - San Francisco",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6240736004",
+      "scraped_at": "2026-11-02T17:51:50+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-11-02T17:52:10.026644+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
+    {
+      "id": 1859,
+      "company": "Anthropic",
+      "title": "Regional Research Economist, Economic Research",
+      "location": "Bangalore, India",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5460524008",
+      "scraped_at": "2026-11-02T17:51:36+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-11-02T17:52:10.022343+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
+    {
+      "id": 1858,
+      "company": "Anthropic",
+      "title": "Data Center Asset Management, Commercial Associate",
+      "location": "San Francisco, CA | New York City, NY",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5468352008",
+      "scraped_at": "2026-11-02T17:51:36+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-11-02T17:52:10.013927+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
     {
       "id": 1857,
       "company": "Anthropic",
@@ -9037,60 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-09-09T12:03:03.701440+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 1360,
-      "company": "Anthropic",
-      "title": "Warehouse and Logistics Manager - International",
-      "location": "San Francisco, CA | New York City, NY",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5416979008",
-      "scraped_at": "2026-09-09T12:02:29+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-09-09T12:03:03.696953+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 1359,
-      "company": "Anthropic",
-      "title": "User Experience Researcher, Platform",
-      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5392007008",
-      "scraped_at": "2026-09-09T12:02:29+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-09-09T12:03:03.692460+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 1358,
-      "company": "Anthropic",
-      "title": "Strategic Pursuits Lead, RevOps",
-      "location": "San Francisco, CA | New York City, NY",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390935008",
-      "scraped_at": "2026-09-09T12:02:29+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-09-09T12:03:03.687804+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
