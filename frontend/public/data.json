@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-14T14:45:22.524589+00:00",
+  "generated_at": "2026-11-15T14:25:35.319915+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 1961,
-    "scored_jobs": 1961,
+    "total_jobs": 1963,
+    "scored_jobs": 1963,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-11-14T14:45:22.447499+00:00"
+    "last_scan_at": "2026-11-15T14:25:35.232483+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-11-14T14:44:48.794974+00:00",
+      "last_scanned_at": "2026-11-15T14:25:01.740854+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-11-14T14:45:04.937102+00:00",
+      "last_scanned_at": "2026-11-15T14:25:18.211771+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-11-14T14:45:07.350136+00:00",
+      "last_scanned_at": "2026-11-15T14:25:20.166418+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-11-14T14:45:22.447499+00:00",
+      "last_scanned_at": "2026-11-15T14:25:35.232483+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-11-14T14:45:03.886754+00:00",
+      "last_scanned_at": "2026-11-15T14:25:16.899403+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-11-14T14:45:03.647545+00:00",
+      "last_scanned_at": "2026-11-15T14:25:16.735691+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,12 +89,48 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-11-14T14:45:03.352642+00:00",
+      "last_scanned_at": "2026-11-15T14:25:16.546626+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
+    {
+      "id": 1963,
+      "company": "Riskified",
+      "title": "Product Data Analyst",
+      "location": "Tel Aviv",
+      "url": "https://www.riskified.com/careers/job-description/?gh_jid=8934820002",
+      "scraped_at": "2026-11-15T14:25:16+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-11-15T14:25:35.280731+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
+    {
+      "id": 1962,
+      "company": "Anthropic",
+      "title": "Engineering Manager, Billing Platform",
+      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5469291008",
+      "scraped_at": "2026-11-15T14:25:01+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-11-15T14:25:35.273809+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
     {
       "id": 1961,
       "company": "Anthropic",
@@ -2204,7 +2240,7 @@
     {
       "id": 1844,
       "company": "Anthropic",
-      "title": "Data Engineer, GTM Systems",
+      "title": "Data Foundations, GTM Systems",
       "location": "San Francisco, CA | New York City, NY; Seattle, WA",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5464234008",
       "scraped_at": "2026-10-31T13:11:20+00:00",
@@ -9055,42 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-09-23T12:26:17.349963+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 1463,
-      "company": "Vercel",
-      "title": "Senior Recruiter",
-      "location": "Hybrid - San Francisco, New York City",
-      "url": "https://job-boards.greenhouse.io/vercel/jobs/6201403004",
-      "scraped_at": "2026-09-22T12:12:33+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-09-22T12:12:52.945642+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 1462,
-      "company": "Vercel",
-      "title": "Senior Finance Manager, Sales",
-      "location": "Hybrid - San Francisco",
-      "url": "https://job-boards.greenhouse.io/vercel/jobs/6148624004",
-      "scraped_at": "2026-09-22T12:12:33+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-09-22T12:12:52.941246+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
