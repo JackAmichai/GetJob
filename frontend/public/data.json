@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-20T15:50:32.742423+00:00",
+  "generated_at": "2026-11-20T16:50:35.354173+00:00",
   "settings": {
     "default_location": "Israel",
     "default_email": "jackamichai@gmail.com",
@@ -9,11 +9,11 @@
     "llm_provider": "anthropic"
   },
   "stats": {
-    "total_jobs": 2000,
-    "scored_jobs": 2000,
+    "total_jobs": 2001,
+    "scored_jobs": 2001,
     "high_match_jobs": 0,
     "portals_active": 7,
-    "last_scan_at": "2026-11-20T15:50:32.605900+00:00"
+    "last_scan_at": "2026-11-20T16:50:35.264893+00:00"
   },
   "portals": [
     {
@@ -23,7 +23,7 @@
       "board_url": "https://boards.greenhouse.io/anthropic",
       "company": "Anthropic",
       "is_active": true,
-      "last_scanned_at": "2026-11-20T15:49:59.206095+00:00",
+      "last_scanned_at": "2026-11-20T16:50:01.750816+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -34,7 +34,7 @@
       "board_url": "https://jobs.lever.co/lightricks",
       "company": "Lightricks",
       "is_active": true,
-      "last_scanned_at": "2026-11-20T15:50:15.540215+00:00",
+      "last_scanned_at": "2026-11-20T16:50:17.839242+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -45,7 +45,7 @@
       "board_url": "https://boards.greenhouse.io/mondaycom",
       "company": "Monday.com",
       "is_active": true,
-      "last_scanned_at": "2026-11-20T15:50:17.669661+00:00",
+      "last_scanned_at": "2026-11-20T16:50:20.300725+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -56,7 +56,7 @@
       "board_url": "https://boards.greenhouse.io/outbrain",
       "company": "Outbrain",
       "is_active": true,
-      "last_scanned_at": "2026-11-20T15:50:32.605900+00:00",
+      "last_scanned_at": "2026-11-20T16:50:35.264893+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -67,7 +67,7 @@
       "board_url": "https://boards.greenhouse.io/riskified",
       "company": "Riskified",
       "is_active": true,
-      "last_scanned_at": "2026-11-20T15:50:14.191582+00:00",
+      "last_scanned_at": "2026-11-20T16:50:16.857004+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -78,7 +78,7 @@
       "board_url": "https://boards.greenhouse.io/vercel",
       "company": "Vercel",
       "is_active": true,
-      "last_scanned_at": "2026-11-20T15:50:14.000214+00:00",
+      "last_scanned_at": "2026-11-20T16:50:16.668256+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     },
@@ -89,12 +89,30 @@
       "board_url": "https://job-boards.greenhouse.io/wix",
       "company": "Wix",
       "is_active": true,
-      "last_scanned_at": "2026-11-20T15:50:13.774182+00:00",
+      "last_scanned_at": "2026-11-20T16:50:16.366986+00:00",
       "last_error": null,
       "created_at": "2026-05-18T10:57:37+00:00"
     }
   ],
   "jobs": [
+    {
+      "id": 2001,
+      "company": "Anthropic",
+      "title": "Research Engineer, Beneficial Deployments",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5485188008",
+      "scraped_at": "2026-11-20T16:50:01+00:00",
+      "posted_at": null,
+      "relevance_score": 0,
+      "tech_score": 0,
+      "experience_score": 0,
+      "geography_score": 0,
+      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
+      "analyzed_at": "2026-11-20T16:50:35.305713+00:00",
+      "notified": false,
+      "dismissed": false,
+      "starred": false
+    },
     {
       "id": 2000,
       "company": "Riskified",
@@ -9073,24 +9091,6 @@
       "geography_score": 0,
       "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
       "analyzed_at": "2026-09-26T11:56:46.265113+00:00",
-      "notified": false,
-      "dismissed": false,
-      "starred": false
-    },
-    {
-      "id": 1501,
-      "company": "Anthropic",
-      "title": "Commercial Counsel, Hardware",
-      "location": "San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5434795008",
-      "scraped_at": "2026-09-26T11:56:11+00:00",
-      "posted_at": null,
-      "relevance_score": 0,
-      "tech_score": 0,
-      "experience_score": 0,
-      "geography_score": 0,
-      "brief": "- LLM transport error: RuntimeError\n- Job retained for retry on next scan.",
-      "analyzed_at": "2026-09-26T11:56:46.257555+00:00",
       "notified": false,
       "dismissed": false,
       "starred": false
